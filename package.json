@@ -1,0 +1,33 @@
+{
+  "name": "telegram-telegraf-bot",
+  "version": "1.0.0",
+  "description": "No description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Finalgalaxy",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^3.6.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Finalgalaxy/telegram-telegraf-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegraf",
+    "es6",
+    "nodejs",
+    "node.js",
+    "telegram-bot",
+    "telegram-bots",
+    "telegram-api"
+  ],
+  "bugs": {
+    "url": "https://github.com/Finalgalaxy/telegram-telegraf-bot/issues"
+  },
+  "homepage": "https://github.com/Finalgalaxy/telegram-telegraf-bot#readme"
+}
