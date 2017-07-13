@@ -86,5 +86,5 @@ You can also use regexp, for example this one checks case-insensitive version of
 bot.hears(/torino/i, (ctx) => ctx.reply("Someone said Torino!?"));
 ```
 
-For more informations, check Telegraf API: https://github.com/telegraf/telegraf
-For inline support results, check: https://core.telegram.org/bots/api#inlinequeryresult
+For more informations, check Telegraf API: https://github.com/telegraf/telegraf.
+For inline support results, check: https://core.telegram.org/bots/api#inlinequeryresult.
