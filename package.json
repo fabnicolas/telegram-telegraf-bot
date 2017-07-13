@@ -1,7 +1,7 @@
 {
   "name": "telegram-telegraf-bot",
   "version": "1.0.0",
-  "description": "No description",
+  "description": "Telegram bot example using Telegraf with easy configuration steps. Node v8+.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
