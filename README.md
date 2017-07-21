@@ -69,20 +69,20 @@ I have personally commented my own code in order to make things as much clear as
 The file index.js is a loader for app.js file. To change your bot behavior, change app.js accordingly.
 
 For example, listening a command:
-```
+```javascript
 // Command example, pretty easy. Each callback passes as parameter the context.
 // Context data includes message info, timestamp, etc; check the official documentation or print ctx.
 bot.command('start', (ctx) => ctx.reply('Bot started.'));
 ```
 
 Hear a word in a sentence:
-```
-// Hears, instead of command, check if the given word or regexp is CONTAINED in user input and not necessarly at beginning.
+```javascript
+// Hears, instead of command, check if the given word or regexp is CONTAINED in user input.
 bot.hears('ymca', (ctx) => ctx.reply("*sing* It's fun to stay at the Y.M.C.A.!"));
 ```
 
 You can also use regexp, for example this one checks case-insensitive version of the word:
-```
+```javascript
 bot.hears(/torino/i, (ctx) => ctx.reply("Someone said Torino!?"));
 ```
 
