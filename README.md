@@ -24,7 +24,7 @@ Also for this project I used `node v8.0.0`. Old project supported `node v4.0.0` 
 ### Step 2: configure your Node.js application
 - Create config.js in the repository root with this content. Replace API_TOKEN with the API key you got from BotFather:
 ```javascript
-module.exports = {ttelegraf_token:'API_TOKEN'};
+module.exports = {telegraf_token:'API_TOKEN'};
 ```
 This file will be automatically ignored from .gitignore to secure your API key in GitHub.
 
